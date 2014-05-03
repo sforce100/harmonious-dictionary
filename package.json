@@ -1,0 +1,15 @@
+{
+  "name": "harmonious-dictionary",
+  "version": "0.0.0",
+  "description": "和谐字典",
+  "main": "harmonious.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sforce100",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "3.0.2",
+    "hashmap": "1.0.1"
+  }
+}
