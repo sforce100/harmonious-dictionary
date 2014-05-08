@@ -29,6 +29,9 @@ function init_harmonious_files (cnPath, enPath) {
   };
   if (global.harmonious.enYaml == undefined) {
     global.harmonious.enYaml = load_harmonious_dictionary(enPath);
+    for(var en in global.harmonious.enYaml) {
+      global.harmonious.enYaml[en] = global.harmonious.enYaml[en].toLocaleLowerCase();
+    }
   }; 
 }
 
